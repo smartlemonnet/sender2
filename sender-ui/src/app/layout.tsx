@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-// Fonts temporarily disabled due to build environment constraints
-// Original config used: Geist and Geist_Mono from next/font/google
-// const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-// const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+// TODO: Re-enable Google Fonts when deploying to production environment
+// Fonts temporarily disabled due to build environment constraints (fonts.googleapis.com blocked)
+// Original config: Geist and Geist_Mono from next/font/google
+// To restore: uncomment imports and font config, and update globals.css font variables
 
 export const metadata: Metadata = {
   title: "Sender Control Center",
